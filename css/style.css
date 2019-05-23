@@ -18,13 +18,16 @@
 /* Bottom left text */
 .film-title {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+
 }
 
 .film-img {
-    height: auto;
-
+    width: 300px;
+    height: 444px;
 }
 
 .wrapper{
