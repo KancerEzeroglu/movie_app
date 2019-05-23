@@ -1,0 +1,55 @@
+.film-list {
+    box-sizing: border-box;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch; /* added */
+}
+
+.film{
+    flex-grow: 1;
+    flex: 1 1 30%;
+    position: relative;
+    text-align: center;
+
+}
+
+/* Bottom left text */
+.film-title {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.film-img {
+    height: auto;
+
+}
+
+.wrapper{
+    background-color: red;
+    align-content: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.search-text {
+    width: 85%;
+    height: 100%;
+}
+
+.search-button {
+    width: 10%;
+    height: 100%;
+    font-size: 18px;
+
+}
+
+.search{
+    margin-bottom: 15px;
+    height: 40px;
+}
