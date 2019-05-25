@@ -46,10 +46,13 @@
 }
 
 .search-text {
-    width: 85%;
+    width: 87%;
     height: 100%;
     border: 2px solid black;
     border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
 }
 
 .search-button {
@@ -58,12 +61,15 @@
     font-size: 18px;
     border: 2px solid black;
     border-radius: 10px;
+    font-weight: 600;
 
 }
 
 .search{
     margin-bottom: 15px;
     height: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*
